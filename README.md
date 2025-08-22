@@ -34,5 +34,6 @@ src/
  └── main.jsx              # Entry point
 
 -- Home Page
-<img width="1905" height="874" alt="img1" src="[https://github.com/user-attachments/assets/4e40b319-66b6-47e8-ad28-efa19a6334b0](https://github.com/Santhoshdevulapallay/MyPersonal-Blog/blob/main/img1.png)" />
+<img width="1905" height="874" alt="img1" src="https://github.com/Santhoshdevulapallay/MyPersonal-Blog/blob/main/img1.png" />
+
 
