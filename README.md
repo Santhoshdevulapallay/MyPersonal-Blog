@@ -19,7 +19,6 @@ It includes features like dynamic blog posts, global notifications, and a clean 
 
 ## 📸 Preview
 
-### Screenshot
 Home:
 ![Blog Screenshot](https://raw.githubusercontent.com/Santhoshdevulapallay/MyPersonal-Blog/main/img1.png)
 
@@ -40,4 +39,5 @@ src/
  │   └── NotFound.jsx
  ├── App.jsx               # Main app with routes & providers
  └── main.jsx              # Entry point
+
 
