@@ -20,29 +20,22 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/santhoshd',
+      href: 'https://github.com/Santhoshdevulapallay',
       username: '@santhoshd',
       color: 'hover:bg-gray-800 hover:text-white'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/santhoshd',
+      href: 'https://linkedin.com/in/Santhoshdevulapallay',
       username: '/in/santhoshd',
       color: 'hover:bg-blue-600 hover:text-white'
     },
     {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com/santhoshd',
-      username: '@santhoshd',
-      color: 'hover:bg-blue-500 hover:text-white'
-    },
-    {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:santhosh@example.com',
-      username: 'santhosh@example.com',
+      href: 'mailto:udaysanthosh1995@gmail.com',
+      username: 'udaysanthosh1995@gmail.com',
       color: 'hover:bg-red-500 hover:text-white'
     }
   ];
@@ -192,10 +185,10 @@ const Contact = () => {
                   <div>
                     <div className="font-medium">Email</div>
                     <a
-                      href="mailto:santhosh@example.com"
+                      href="mailto:udaysanthosh1995@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      santhosh@example.com
+                      udaysanthosh1995@gmail.com
                     </a>
                   </div>
                 </div>
@@ -206,7 +199,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Location</div>
-                    <div className="text-muted-foreground">India</div>
+                    <div className="text-muted-foreground">Bangalore , India</div>
                   </div>
                 </div>
                 
@@ -262,11 +255,11 @@ const Contact = () => {
               <CardContent>
                 <ul className="space-y-2">
                   {[
-                    'Full-stack development projects',
-                    'Technical consulting opportunities',
+                    'React and TypeScript projects',
+                    'Redux and state management',
+                    'Visual design and UI/UX improvements',
+                    'Performance optimization strategies',
                     'Open source collaborations',
-                    'Speaking engagements',
-                    'Mentoring and knowledge sharing',
                     'Career transition advice'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2">

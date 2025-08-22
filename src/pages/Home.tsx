@@ -20,16 +20,16 @@ const Home = () => {
         
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <div className="animate-fade-in-up">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-              <span className="text-gradient">Santhosh D</span>
-            </h1>
-            <p className="text-xl sm:text-2xl text-foreground mb-8 max-w-3xl mx-auto">
-              Full-Stack Developer | Tech Enthusiast | Lifelong Learner
+            <h4 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">
+              <span className="text-gradient">
+                React Developer | Tech Enthusiast | Blogger
+              </span>
+            </h4>
+
+            <p className="text-lg text-white/60 mb-10 max-w-2xl mx-auto leading-relaxed italic">
+               With 5 years of professional experience in website development, I specialize in designing and building scalable, high-performance web applications. My expertise lies in leveraging modern frameworks, optimizing workflows, and integrating innovative solutions. I am passionate about exploring emerging technologies and sharing insights through technical writing and blogs.
             </p>
-            <p className="text-lg text-foreground/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-              I'm a full-stack developer with 5 years of experience, passionate about building scalable web applications, 
-              exploring new technologies, and sharing my journey through blogs.
-            </p>
+
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link to="/blog">
