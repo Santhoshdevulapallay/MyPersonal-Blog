@@ -7,7 +7,6 @@ import {
   Code2, 
   Database, 
   Globe, 
-  Smartphone,
   Server,
   GitBranch,
   Cloud
@@ -15,56 +14,57 @@ import {
 
 const About = () => {
   const skills = [
-    { category: 'Frontend', icon: Globe, items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js'] },
-    { category: 'Backend', icon: Server, items: ['Node.js', 'Golang', 'Python', 'Express.js', 'FastAPI'] },
-    { category: 'Database', icon: Database, items: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'Prisma'] },
-    { category: 'DevOps', icon: Cloud, items: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform'] },
-    { category: 'Mobile', icon: Smartphone, items: ['React Native', 'Flutter', 'PWA', 'Ionic'] },
-    { category: 'Tools', icon: GitBranch, items: ['Git', 'VS Code', 'Figma', 'Postman', 'Jira'] },
+    { category: 'Frontend', icon: Globe, items: ['React', 'Angular' ,'Javascript', 'TypeScript', 'Tailwind CSS'] },
+    { category: 'Backend', icon: Server, items: ['Node.js','Django', 'Python'] },
+    { category: 'Database', icon: Database, items: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL'] },
+    { category: 'DevOps', icon: Cloud, items: ['Docker', 'Kubernetes', 'CI/CD'] },
+    { category: 'Tools', icon: GitBranch, items: ['Grafana','Git', 'VS Code', 'Figma', 'Postman', 'Jira'] },
   ];
 
   const experience = [
     {
-      role: 'Senior Full-Stack Developer',
-      company: 'TechCorp Private Limited',
-      period: '2023 - Present',
-      description: 'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and driving technical decisions.',
+      role: 'Deputy Manager',
+      company: 'Grid Controller of India Ltd (PSU)',
+      period: '2019 - Present',
+      description: 'Contributing to the design and development of enterprise-level applications that support power system operations and internal organizational processes.',
       achievements: [
-        'Increased application performance by 40% through optimization',
-        'Led migration from monolith to microservices architecture',
-        'Implemented CI/CD pipelines reducing deployment time by 60%'
+        'Developed the **Meter Data Application** to process and analyze high-frequency data (every 15 minutes) from ~2000 meters across the Southern region, ensuring scalability and reliability',
+        'Built the **Pool Accounts Application** for managing large-scale financial disbursals from central pools to end users with accuracy and transparency',
+        'Designed and deployed multiple **HR-related applications** to streamline internal workflows and employee services',
+        'Improved usability, performance, and maintainability across applications through modern front-end development practices'
+      ]
+    },
+
+   {
+      role: 'GATE Aspirant',
+      company: 'Self-Preparation',
+      period: '2017 - 2018',
+      description: 'Dedicated one year to preparing for the Graduate Aptitude Test in Engineering (GATE), which helped me strengthen my fundamentals and problem-solving skills.',
+      achievements: [
+        'Successfully cleared GATE 2017 and secured admission into IIT Hyderabad (M.Tech)',
+        'Developed strong analytical and time management skills',
+        'Built a resilient mindset through consistent effort and self-study'
       ]
     },
     {
-      role: 'Full-Stack Developer',
-      company: 'Innovation Labs',
-      period: '2022 - 2023',
-      description: 'Developed and maintained multiple client projects using modern web technologies. Collaborated with cross-functional teams to deliver high-quality solutions.',
+      role: 'B.E. in Computer Science',
+      company: 'MVSR Engineering College, Hyderabad',
+      period: '2012 - 2016',
+      description: 'Completed undergraduate studies in Computer Science, building a strong foundation in programming, data structures, and software development.',
       achievements: [
-        'Built 5+ production applications serving 10k+ users',
-        'Introduced automated testing increasing code coverage to 85%',
-        'Optimized database queries improving response times by 50%'
-      ]
-    },
-    {
-      role: 'Software Developer',
-      company: 'National Power Corporation (PSU)',
-      period: '2019 - 2022',
-      description: 'Worked on internal applications and systems for power distribution management. Gained experience in enterprise software development.',
-      achievements: [
-        'Modernized legacy systems improving user experience',
-        'Developed reporting dashboards for management',
-        'Maintained 99.9% uptime for critical applications'
+        'Developed academic projects including Fuzzy Series Implementation',
+        'Participated in paper presentations during annual college fests',
+        'Gained hands-on experience through coursework and team projects'
       ]
     }
   ];
 
   const goals = [
     {
-      title: 'Master Golang',
-      description: 'Deepen expertise in Go for building high-performance backend services and microservices.',
+      title: 'Redux & State Management',
+      description: 'Master efficient state management in React applications using Redux, ensuring predictable data flow, scalability, and maintainable code.',
       icon: Code2
-    },
+    } ,
     {
       title: 'Open Source Contribution',
       description: 'Actively contribute to open-source projects and build tools that help the developer community.',
@@ -91,7 +91,7 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A passionate full-stack developer on a journey of continuous learning and growth in the ever-evolving tech landscape.
+           ✨ A passionate front-end developer on a journey of continuous learning and growth in the ever-evolving tech landscape.
           </p>
         </div>
 
@@ -106,20 +106,19 @@ const About = () => {
             </CardHeader>
             <CardContent className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed">
-                My career began in the structured environment of a Public Sector Undertaking, where I learned the fundamentals 
-                of software development and gained valuable experience in enterprise systems. However, my passion for modern 
-                technologies and dynamic work environments led me to make a pivotal transition to the private tech sector.
+               📌 2016 – Graduated from <b>MVSR Engineering College, Hyderabad</b> in CSE.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                This transition challenged me to rapidly upskill and adapt to new technologies, methodologies, and work cultures. 
-                I embraced this challenge wholeheartedly, dedicating myself to mastering modern web technologies, cloud platforms, 
-                and agile development practices. Today, I'm proud to be building scalable applications that impact thousands of users 
-                while continuously expanding my technical expertise.
+              📌 2017 – Dedicated a year to preparation, successfully cleared GATE, and secured admission into IIT Hyderabad (M.Tech).
+              </p>           
+              <p className="text-muted-foreground leading-relaxed">
+                📌 2018 – During my first semester at IIT Hyderabad, I cleared GATE again, achieving a higher score (AIR 260) that opened opportunities with Public Sector Undertakings (PSUs).
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Beyond coding, I'm passionate about sharing knowledge through technical writing and mentoring fellow developers. 
-                I believe that the best way to solidify your understanding is to teach others, which is why I actively contribute 
-                to the developer community through blogs, open-source projects, and knowledge sharing.
+                📌 2019 – Joined Grid Controller of India Ltd (PSU) as an Assistant Manager. With my IT background and a strong passion for software development, I upskilled myself in Full-Stack Web Development and began contributing to building scalable web applications within the organization.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                📌 2019 – Present – Working at Grid Controller of India Ltd, where I have been contributing to the design and development of scalable web applications, building innovative solutions, and enhancing my expertise as a Full-Stack Developer.
               </p>
             </CardContent>
           </Card>
@@ -153,9 +152,9 @@ const About = () => {
           </div>
         </section>
 
-        {/* Experience */}
+        {/* Experiences */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Professional Experience</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">My Experiences</h2>
           <div className="space-y-8">
             {experience.map((exp, index) => (
               <Card key={exp.role} className="card-elevated animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>

@@ -5,10 +5,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/santhoshd', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/santhoshd', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com/santhoshd', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:santhosh@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/santhoshdevulaplly', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/santhoshdevulaplly', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:udaysanthosh1995@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -22,18 +21,6 @@ const Footer = () => {
     <footer className="bg-secondary/30 border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Brand */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">S</span>
-              </div>
-              <span className="font-semibold text-lg text-foreground">Santhosh D</span>
-            </div>
-            <p className="text-muted-foreground text-sm max-w-xs">
-              Full-Stack Developer passionate about building scalable web applications and sharing knowledge through blogs.
-            </p>
-          </div>
 
           {/* Quick Links */}
           <div className="space-y-4">
