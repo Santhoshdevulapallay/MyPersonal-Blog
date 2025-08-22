@@ -23,10 +23,10 @@ const Home = () => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
               <span className="text-gradient">Santhosh D</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            <p className="text-xl sm:text-2xl text-foreground mb-8 max-w-3xl mx-auto">
               Full-Stack Developer | Tech Enthusiast | Lifelong Learner
             </p>
-            <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-foreground/90 mb-12 max-w-2xl mx-auto leading-relaxed">
               I'm a full-stack developer with 5 years of experience, passionate about building scalable web applications, 
               exploring new technologies, and sharing my journey through blogs.
             </p>
