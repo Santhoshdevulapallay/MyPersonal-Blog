@@ -17,6 +17,14 @@ It includes features like dynamic blog posts, global notifications, and a clean 
 
 ---
 
+## 📸 Preview
+
+### Screenshot
+Using Markdown:
+![Blog Screenshot](https://raw.githubusercontent.com/Santhoshdevulapallay/MyPersonal-Blog/main/img1.png)
+
+---
+
 ## 📂 Project Structure
 ```bash
 src/
@@ -32,8 +40,3 @@ src/
  │   └── NotFound.jsx
  ├── App.jsx               # Main app with routes & providers
  └── main.jsx              # Entry point
-
--- Home Page
-<img width="1905" height="874" alt="img1" src="https://github.com/Santhoshdevulapallay/MyPersonal-Blog/blob/main/img1.png" />
-
-
